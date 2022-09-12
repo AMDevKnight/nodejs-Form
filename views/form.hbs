@@ -1,0 +1,40 @@
+<div class="contain">
+
+    <div class="wrapper">
+
+        <div class="form">
+            <h4>GET IN TOUCH</h4>
+            <h2 class="form-headline">Send us a message</h2>
+            <form id="submit-form" action="/send" method="POST">
+                <p>
+                    <input id="name" class="form-input" name="firstName" type="text" placeholder="Your Name*">
+                    <small class="name-error"></small>
+                </p>
+                <p>
+                    <input id="email" name="email" class="form-input" type="email" placeholder="Your Email*">
+                    <small class="name-error"></small>
+                </p>
+                <p class="time_container">
+                    <lable>Time To Contact</lable>
+                    <input class="form-input" type="date" name="Date" placeholder="Company Name*" required>
+                    <input class="form-input" type="time" name="time" placeholder="Company Name*" required>
+                    <small></small>
+                </p>
+                <p class="full-width">
+                    <textarea minlength="20" name="message" id="message" cols="30" rows="7" placeholder="Your Message*"
+                        required></textarea>
+                    <small></small>
+                </p>
+                <p class="full-width">
+                    <input type="checkbox" name="agreement" id="checkbox" name="checkbox" checked> Yes, I would like to
+                    receive
+                    communications by call / email about Company's services.
+                </p>
+                <p class="full-width">
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <button type="reset" class="reset-btn">Reset</button>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
