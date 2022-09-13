@@ -40,10 +40,12 @@ app.post('/send', (req, res) => {
     const message = new Message({
         firstName: req.body.firstName,
         email: req.body.email,
+        messageCategory: req.body.messageCategory,
         Date: req.body.Date,
         time: req.body.time,
         message: req.body.message
     });
+    console.log(req.body)
     message.save().then(
         () => {
             res.status(201).json({

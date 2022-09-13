@@ -9,11 +9,25 @@
                 <p>
                     <input id="name" class="form-input" name="firstName" type="text" placeholder="Your Name*">
                     <small class="name-error"></small>
-                </p>
-                <p>
                     <input id="email" name="email" class="form-input" type="email" placeholder="Your Email*">
                     <small class="name-error"></small>
+
                 </p>
+                <section class="category">
+                    <label for="category1"> Complaint
+                        <input type="radio" name="messageCategory" value="Complaint" required>
+                    </label><br>
+                    <label for="category2">Service required
+                        <input type="radio" name="messageCategory" value="Service required" required>
+                    </label><br>
+                    <label for="category3">General Enquiry
+                        <input type="radio" name="messageCategory" value="General Enquiry " required>
+                    </label><br>
+                    <label for="category3">Call back
+                        <input type="radio" name="messageCategory" value="Call back" required>
+                    </label><br>
+                </section>
+
                 <p class="time_container">
                     <lable>Time To Contact</lable>
                     <input class="form-input" type="date" name="Date" placeholder="Company Name*" required>
@@ -25,6 +39,7 @@
                         required></textarea>
                     <small></small>
                 </p>
+
                 <p class="full-width">
                     <input type="checkbox" name="agreement" id="checkbox" name="checkbox" checked> Yes, I would like to
                     receive

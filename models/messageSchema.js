@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const messageSchema = mongoose.Schema({
     firstName: { type: String, required: true },
     email: { type: String, required: true },
+    messageCategory: { type: String, required: true },
     Date: { type: String, required: true },
     time: { type: String, required: true },
     message: { type: String, required: true }

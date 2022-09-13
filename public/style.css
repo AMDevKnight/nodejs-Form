@@ -62,6 +62,13 @@ div.form {
     color: black;
 }
 
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 h3,
 ul {
     margin: 0;
